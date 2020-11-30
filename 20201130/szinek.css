@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    color: rgb(139, 166, 32);
+}
+
+h3 {
+    color: #8BA620;
+}
+
+h4 {
+    color: rgba(255, 0, 0, 0.5);
+}
