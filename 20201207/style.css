@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+    background-image: url(gradienta-LeG68PrXA6Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.fontosbekezdes {
+    background-color: gainsboro;
+    opacity: 0.9;
+}
+
+.kiemeltszoveg {
+    color: red;
+    font-weight: bold;
+}
