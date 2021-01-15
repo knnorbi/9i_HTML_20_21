@@ -1,0 +1,16 @@
+h1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+    padding: 20px;
+}
+
+p {
+    margin: 10px 20px 30px 40px;
+}
+
+.keretes {
+    border: 10px solid red;
+}
