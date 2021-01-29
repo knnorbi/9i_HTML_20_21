@@ -1,19 +1,38 @@
 .allborders {
-    
+    border-width: 10px;
+    border-style: solid;
+    border-color: blueviolet;
 }
 
 .uniqueborders {
-
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: blueviolet;
+    
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    border-bottom-color: green;
 }
 
 .shorthand {
-   
+    border: 30px solid pink;
+    border-bottom: 10px dotted blue;
 }
 
 .shorthand2 {
-    
+    border-width: 10px 20px 30px 40px;
+    border-style: solid double;
+    border-color: blueviolet green;
 }
 
 .kerek {
-    
+    border: 3px solid red;
+    padding: 10px;
+    /* border-radius: 50px;
+    border-top-right-radius: 2px */
+    border-radius: 50px 10px 20px 30px;
+}
+
+.valami {
+    border: 3px solid red;
 }
