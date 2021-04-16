@@ -8,7 +8,7 @@
     <form action="https://knnorbi.ddns.net/test/post.php" method="post">
         <div>
             <label for="nameInput">Név:</label>
-            <input type="text" id="nameInput" name="name" value="Minta Béla" maxlength="20">
+            <input type="text" id="nameInput" name="name" value="Minta Béla">
         </div>
         <div>
            Milyen gyümolcsöket szeretsz?<br>
@@ -27,7 +27,19 @@
             <label for="nemRB">Nem</label>
         </div>
         <div>
-            <input type="submit">
+            Hol laksz?<br>
+            <select name="lakhely">
+                <optgroup label="Budapest">
+                    <option value="0">Buda</option>
+                    <option value="1">Pest</option>
+                </optgroup>
+                <option value="2">Megyszékhely</option>
+                <option value="3" selected>Város</option>
+                <option value="4">Egyéb</option>
+            </select>            
+        </div>
+        <div>
+            <input type="submit" name="mehet" value="GO">
         </div>
     </form>
 </body>
